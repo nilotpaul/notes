@@ -11,7 +11,7 @@ We need QUEMU/KVM and libvirt to create VMS.
 qemu-img create -f qcow2 kube-vm1.qcow2 10G
 ```
 
-This is create an img which can be used to boot our VM. But this doesn't contain anything.
+Create an img which can be used to boot our VM. But this doesn't contain anything.
 
 # Create Main Persistent QCOW2 Image with a BASE Image
 
